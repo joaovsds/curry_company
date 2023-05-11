@@ -223,6 +223,8 @@ traffic_options = st.sidebar.multiselect(
     ['Low','Medium','High', 'Jam'],
     default = ['Low','Medium','High', 'Jam'])
 
+st.sidebar.markdown('''---''') 
+
 #===================================================#
 #     Filtro de clima
 #===================================================#
@@ -231,6 +233,7 @@ Weatherconditions = st.sidebar.multiselect(
     ['conditions Cloudy','conditions Fog','conditions Sandstorms', 'conditions Stormy','conditions Sunny','conditions Windy'],
     default = ['conditions Cloudy','conditions Fog','conditions Sandstorms', 'conditions Stormy','conditions Sunny','conditions Windy'])
 
+st.sidebar.markdown('''---''') 
 
 # adicionando o dataframe no filtro das datas da barra lateral
 linhas_selecionadas = df['Order_Date'] < date_slider
