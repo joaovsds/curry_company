@@ -163,6 +163,8 @@ traffic_options = st.sidebar.multiselect(
     ['Low','Medium','High', 'Jam'],
     default = ['Low','Medium','High', 'Jam'])
 
+st.sidebar.markdown('''---''') 
+
 #===================================================#
 #     Filtro de clima
 #===================================================#
