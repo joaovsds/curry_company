@@ -27,7 +27,5 @@ st.markdown(
         - Acompanhamento dos indicadores semanais de crescimento
     - Visão Restaurante:
         - Indicadores semanais de crescimento dos restaurantes
-    ### Ask for Help
-    - Time de Data Science no Discord
-        - @joaovv
+        
     """)
