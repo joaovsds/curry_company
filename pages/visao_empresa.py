@@ -245,6 +245,7 @@ traffic_options = st.sidebar.multiselect(
     ['Low','Medium','High', 'Jam'],
     default = ['Low','Medium','High', 'Jam'])
 
+st.sidebar.markdown('''---''') 
 
 # adicionando o dataframe no filtro das datas da barra lateral
 linhas_selecionadas = df['Order_Date'] < date_slider
